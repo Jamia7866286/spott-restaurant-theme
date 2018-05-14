@@ -1,0 +1,654 @@
+@media (max-width: 767px) and (min-width: 240px) {
+    .settings h1 {
+        padding: 15px 10px;
+        font-size: 20px;
+    }
+    .settings form {
+        padding: 10px;
+    }
+    .settings form label {
+        font-size: 15px;
+    }
+    .acc-setting .panel-heading {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .custom-accordion i {
+        font-size: 15px;
+    }
+    .settings form p {
+        font-size: 14px;
+    }
+    .settings form label {
+        font-size: 14px;
+    }
+    .settings .custom-checkbox {
+        margin-bottom: 15px;
+    }
+    .settings .btn-block {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .address_book form {
+        padding: 10px;
+    }
+    .address_book form address {
+        font-size: 14px;
+    }
+
+    address {
+        margin-bottom: 0px;
+    }
+    .contact-bg {
+        padding: 20px 0;
+    }
+    .contact-bg p {
+        font-size: 37px;
+        padding: 60px 0;
+    }
+    .contact_US {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contact_US h1 {
+        margin-top: 0;
+    }
+    .spot-pvt-ltd h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+        padding: 15px 10px;
+    }
+    .spot-pvt-ltd .address {
+        padding: 15px 0 0px 10px;
+    }
+    .spot-pvt-ltd address h3 {
+        font-size: 20px;
+    }
+    .address address {
+        margin-bottom: 10px;
+    }
+    .faq-content {
+        padding: 15px 10px;
+    }
+    .faq-content .panel-heading {
+        font-size: 20px;
+    }
+    .faq-content .faq-body {
+        padding: 15px 10px 10px;
+    }
+    .faq-content .panel-body h1 {
+        font-size: 14px;
+    }
+    .faq-content .panel-body .panel-heading {
+        font-size: 11px;
+    }
+    .faq-content .panel-body .panel-body {
+        font-size: 14px;
+    }
+    .contact-detail {
+        padding: 15px 10px;
+    }
+    .contact-no p {
+        font-size: 14px;
+    }
+    .contact-no ul li a {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    .restaurant ul li {
+        font-size: 14px;
+    }
+    .terms_condition h1 {
+        margin: 0;
+        font-size: 20px;
+        padding: 15px 10px;
+    }
+    .terms {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    .terms ol {
+        padding-left: 10px;
+    }
+    ul.nav.navbar-nav.nav-left {
+        margin-left: 0px;
+        border-left: 0;
+    }
+    ul.nav.navbar-nav.nav-left li{
+        margin-left: 0;
+    }
+    .nav-left.navbar-nav {
+        margin: 7.5px 0;
+    }
+    ul.nav.navbar-nav.navbar-right li ul.dropdown-menu li a {
+        color: #fff;
+    }
+    .navbar-header img{
+        margin-left: 10px;
+    }
+    #Loginpop .modal-dialog,
+    #SignupPop .modal-dialog {
+        width: 380px;
+        margin: 0 auto;
+    }
+    .login-content h1 {
+        font-size: 30px;
+    }
+    .login-content button {
+        padding: 5px 15px;
+    }
+    .login-modal p.line {
+        margin: 15px 0;
+    }
+    .login-form .btn-block {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .signup-content h1 {
+        font-size: 30px;
+    }
+    .signup-content button {
+        padding: 5px 15px;
+    }
+    .signup-form .btn-block {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .signup-form .last_name {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        padding-left: 10px;
+        /* border-left: 1px; */
+        margin-top: 15px;
+        height: 41px;
+        background-color: #f5f5f5;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        padding-left: 30px;
+        z-index: 9;
+    }
+    .signup-form .first_name {
+        border-bottom-right-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .banner-bg {
+        padding: 20px 0;
+    }
+    .banner-text h1 {
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .steps {
+        padding: 20px 0;
+    }
+    .step-heading h1 {
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .step-box {
+        padding: 20px 5px;
+        margin-bottom: 10px;
+    }
+    .step-box h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+    .suggest-restaurants {
+        background: #336de6;
+        padding: 20px 0;
+    }
+    .suggest-restaurants .step-heading h1 {
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .sg-restro-single {
+        min-height: 120px;
+    }
+    .restaurants-list>ul {
+        margin: 0;
+    }
+    .Cuisines-bg {
+        padding: 20px 0;
+    }
+    .get-app {
+        padding: 0px 0 0;
+    }
+    .get-app-text h1 {
+        font-size: 23px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .get-app-text p {
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .get-app-btn {
+        margin-top: 15px;
+    }
+    .get-app-btn ul li>a>img {
+        width: 183px;
+        min-height: 64px;
+        margin-bottom: 10px;
+    }
+    section.top-border {
+        padding: 20px 0 30px;
+    }
+    section.top-border h3 {
+        font-size: 23px;
+        margin: 0 0 10px;
+        font-weight: 600;
+    }
+    .list-style li {
+        margin: 0 0 5px;
+        font-size: 14px;
+    }
+    .es-field-cont .es-field {
+        height: 55px;
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+    .email-subscribe-cont i {
+        left: 10px;
+        top: 19px;
+    }
+    .email-subscribe-cont .btn-es {
+        font-size: 17px;
+        height: 55px;
+        padding: 0px 15px;
+    }
+    footer {
+        padding: 20px 0 0;
+    }
+    .fw-heading h4 {
+        font-size: 15px;
+        margin: 0 0 10px;
+    }
+    .footer-bottom {
+        padding: 20px 0;
+        margin: 10px 0 0;
+    }
+    footer .footer-bottom p {
+        text-align: center !important;
+    }
+    .form-outer .row .col-sm-3 {
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+    .border-right {
+        border-right: 0px solid #ddd;
+    }
+
+    .search-field {
+        height: 55px;
+        border-radius: 0;
+        line-height: 55px;
+        padding: 0 0px;
+        padding-left: 30px;
+    }
+    .field-cont i {
+        top: 19px;
+        left: 8px;
+    }
+    .search-field2 {
+        width: 100%;
+        height: 55px;
+        padding: 0 0px;
+        padding-left: 40px;
+        margin-bottom: 15px;
+    }
+    .btn-srch {
+        font-size: 16px;
+        height: 55px;
+        padding: 10px 12px;
+        position: relative;
+        width: 100%;
+        right: 0;
+    }
+    .form-outer .row .col-sm-9 {
+        padding-right: 0;
+    }
+    .field-cont.food-field {
+        padding-right: 0;
+    }
+    .food-order-cont .search-form {
+        padding: 22px 35px;
+    }
+    .get-app-img>img {
+        display: none;
+    }
+    .get-app-btn>ul {
+        text-align: center;
+    }
+    .inner-page-header h3 {
+        font-size: 21px;
+        margin: 10px 0 10px;
+    }
+    .inner-page-data {
+        padding: 10px 0 0;
+    }
+    .search-area {
+        margin: 0 0 15px;
+    }
+    .search-area .form-control {
+        height: 40px;
+        line-height: 40px;
+    }
+    .sw-heading {
+        margin: 0 0 10px;
+    }
+    .sidebar-widget {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    fieldset.rating {
+        padding: 0;
+    }
+    .inner-sidebar {
+        padding: 15px 15px 38px;
+    }
+    .sidebar-widget .btn-see-more {
+        height: 40px;
+        font-size: 16px;
+    }
+    .btn-see-more-outer {
+        margin: 8px -15px -40px;
+    }
+    .restro-item {
+        padding: 0px 15px;
+    }
+    .goto-menu .btn-gomenu {
+        padding: 7px 30px;
+        margin-top: 10px;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .restro-name h2 {
+        font-size: 20px;
+    }
+    .restro-menu-detail .nav-pills li.active a {
+        font-size: 15px;
+    }
+    .restro-menu-detail .nav-pills li a {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+    .restro-menu-heading h3 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .restro-menu-heading ul li a {
+        font-size: 14px;
+    }
+    .restro-menu-heading ul li {
+        margin-bottom: 10px;
+    }
+    .restro-menu-banner {
+        margin-bottom: 10px;
+    }
+    .product-cart-title span {
+        font-size: 14px;
+    }
+    .restro-menu-list table tr td {
+        padding: 15px 5px;
+    }
+    .book-table-btn .btn-bt {
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .book-table .bt-heading {
+        padding: 15px 0px;
+    }
+    .book-table .bt-heading h4 {
+        font-size: 22px;
+    }
+    .book-table .bt-heading img {
+        left: 48px;
+        top: 15px;
+    }
+    .book-table .item-container {
+        padding: 10px 0;
+    }
+    .cart-item-list table tfoot tr td {
+        padding: 15px 5px;
+    }
+    .item-total {
+        padding: 5px 40px;
+    }
+    .restro-menu-detail .restro-list {
+        padding: 15px 10px 5px;
+    }
+    div#review>h3 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .sport_res .order-head,
+    .sport_res .contact-details h2,
+    .sport_res .book-table h2 {
+        font-size: 16px;
+    }
+    .sport_res .contact-details i,
+    .sport_res .book-table i {
+        top: 6px;
+    }
+    .sport_res .cus .bootstrap-select .btn {
+        height: 40px;
+        font-size: 16px;
+    }
+    .sport_res .gest {
+        top: 34px;
+    }
+    .cart-item-list .total {
+        font-size: 18px;
+    }
+    .cart-item-list table tfoot tr td {
+        padding: 10px 8px;
+    }
+    .cart-item-list table~p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    /***  06/Dec/2017  ****/
+    .voucher-cod input {
+        height: 44px;
+        width: 85% !important;
+        padding-left: 37px;
+    }
+    .voucher-cod .fa-gift {
+        top: 8px;
+        left: 8px;
+    }
+    .voucher-cod input.search-query,
+    .voucher-cod .input-group-btn,
+    .voucher-cod .input-group .btn-primary {
+        max-width: 0;
+        height: 40px;
+        border-radius: 0;
+        width: 100%
+    }
+    .voucher-cod .input-group-btn {
+        margin: 0;
+    }
+    .voucher-cod .input-group {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .voucher-cod button {
+        padding: 11px 20px;
+        margin-bottom: 20px;
+    }
+    .field-cont i.code {
+    left: 92.9% !important;
+}
+.field-cont i{
+    font-size: 18px;
+}
+.btn-srch{
+    border-radius: 0;
+}
+
+
+
+
+/*20/Dec/2017*/
+
+.settings h1 {
+    font-size: 20px;
+}
+.history-restaurant .nav-tabs {
+    margin-bottom: 20px;
+}
+.history-restaurant .nav-tabs>li>a {
+    margin-right: 0;
+}
+.history-restaurant .nav>li>a {
+    padding: 15px 32px;
+}
+.dominos-details {
+    font-size: 12px;
+}
+.s_27 {
+    padding-top: 18px;
+    font-size: 15px;
+    padding-left: 0px;
+}.total-detail tr th {
+    font-size: 16px;
+}
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .terms_condition h1 {
+        margin: 0;
+    }
+    .get-app-btn ul li img {
+        width: 150px;
+        height: 55px;
+    }
+    .get-app-text h1 {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    .banner-bg {
+        padding: 100px 0;
+    }
+    .steps {
+        padding: 40px 0;
+    }
+    .suggest-restaurants {
+        padding: 40px 0;
+    }
+    .Cuisines-bg {
+        padding: 40px 0;
+    }
+    .get-app {
+        padding: 40px 0;
+    }
+    section.top-border {
+        padding: 40px 0 50px;
+    }
+    footer {
+        padding: 40px 0 0;
+    }
+    .inner-page-data {
+        padding: 10px 0 0px;
+    }
+    .voucher-cod .input-group {
+        width: 100%;
+    }
+    .field-cont i.code {
+    left: 54% !important;
+}
+
+
+
+
+/*20/Dec/2017*/
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .terms_condition h1 {
+        margin: 0;
+    }
+    .inner-page-data {
+        padding: 5px 0 20px;
+    }
+    .get-app-btn ul li img {
+        width: 150px;
+        height: 55px;
+    }
+    .book-table .bt-heading img {
+        left: 15px;
+    }
+    .get-app-text h1 {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    .banner-bg {
+        padding: 100px 0;
+    }
+    .steps {
+        padding: 40px 0;
+    }
+    .suggest-restaurants {
+        padding: 40px 0;
+    }
+    .Cuisines-bg {
+        padding: 40px 0;
+    }
+    .get-app {
+        padding: 40px 0;
+    }
+    section.top-border {
+        padding: 40px 0 50px;
+    }
+    footer {
+        padding: 40px 0 0;
+    }
+     .field-cont i.code {
+    left: 57% !important;
+}
+
+
+
+
+
+/*20/Dec/2017*/
+
+
+}
+
+@media (min-width: 568px) {
+    .book-table .bt-heading img {
+        left: 10px;
+    }
+    .item-total {
+        padding: 5px 80px;
+    }
+
+
+
+    /*20/Dec/2017*/
+
+}

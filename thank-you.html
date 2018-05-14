@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SPOTT</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+  </head>
+  <body>
+    
+	
+	<header class="">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a href="#">
+				<img src="img/spott-logo.png" alt="SPOTT" title="SPOTT"/>
+			  </a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav nav-left">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurants <span class="fa fa-angle-down"></span> </a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<!-- <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+				  </ul>
+				</li> -->
+				
+				<li><a href="#">Help</a></li>
+				
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Signup</a></li>
+				  </ul>
+				</li>
+				
+				<!-- <li class="social-link"><a href="#"><img src="img/fb-btn.png" alt="" title=""/></a></li>
+				<li class="social-link"><a href="#"><img src="img/twitter-btn.png" alt="" title=""/></a></li>
+				<li class="social-link"><a href="#"><img src="img/instagram-btn.png" alt="" title=""/></a></li> -->
+				
+				
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</header>
+	
+	<!-- <div class="inner-page-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="breadcrumbs-cont">
+						<p><a href="#" title="">Home</a> / <a href="#" title="">Restaurants</a></p>
+					</div>
+					<h3>Order from 4 restaurants in Abidjan</h3>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+	
+	<div class="inner-page-data">
+		<div class="container">
+			<div class="sidebar-data">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="thank-you-page">
+							<div class="thanku-page-main">
+								<div class="thank-you-page-inner">
+									<img src="img/success.png" alt="" title=""/>
+									<h2>Thank You For Your Booking</h2>
+									<h3>we will now verify your account details and confirm your booking.</h3>
+									<ul class="list-inline">
+										<li><i class="fa fa-mobile"></i> +91-9583434233</li>
+										<li><i class="fa fa-mail"></i> john.demo@gmail.com</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="book-table">
+							<div class="details-divider">
+								<h2> <i class="material-icons">restaurant</i> Book a Table</h2>
+							</div>
+							
+							<div class="item-container">
+								<div class="empty-cart text-center" style="display:block;">
+									<img src="img/no-item.png" alt="" title=""/>
+									<h2>Your haven't ordered anythin yet</h2>
+									<h3>Add menu items into your basket</h3>
+								</div>
+								
+								<div class="cart-item-list" style="display:none;">
+									<div class="table-responsive">
+										<table class="table">
+											<tbody>
+												<tr>
+													<td>
+														<h2>Aloo Anarkali Burger</h2>
+													</td>
+													<td>
+														<div class="add-minus-product">
+															<form id='myform' method='POST' action='#'>
+																<input type='button' value='-' class='qtyminus' field='quantity' />
+																<input type='text' name='quantity' value='0' class='qty' />
+																<input type='button' value='+' class='qtyplus' field='quantity' />
+															</form>
+														</div>
+													</td>
+													<td>
+														<h2>$90</h2>
+													</td>
+												</tr>
+											
+												<tr>
+													<td>
+														<h2>Aloo Anarkali Burger</h2>
+													</td>
+													<td>
+														<div class="add-minus-product">
+															<form id='myform' method='POST' action='#'>
+																<input type='button' value='-' class='qtyminus' field='quantity' />
+																<input type='text' name='quantity' value='0' class='qty' />
+																<input type='button' value='+' class='qtyplus' field='quantity' />
+															</form>
+														</div>
+													</td>
+													<td>
+														<h2>$90</h2>
+													</td>
+												</tr>
+											</tbody>
+											
+											<tfoot>
+												<tr>
+													<td colspan="2">
+													<h3>Subtotal:</h3>
+													</td>
+													<td><span>$980</span></td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Areas</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Cuisines</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Restaurants</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Foodbox</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>© Copyright 2017 Safari Meals is a registered trademark</p>
+					</div>
+					
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p class="text-right">
+							<a href="#" title="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+							<a href="#" title="">Privacy Policy</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</footer>
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typeahead.js"></script>
+	<script src="js/custom.js"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </body>
+</html>

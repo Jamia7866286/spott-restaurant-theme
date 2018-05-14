@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SPOTT | Restaurant</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	 <!--Materilize CDN Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+  </head>
+  <body>
+    
+	
+	<header class="">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a href="#">
+				<img src="img/spott-logo.png" alt="SPOTT" title="SPOTT"/>
+			  </a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav nav-left">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurants <span class="fa fa-angle-down"></span> </a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<!-- <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+				  </ul>
+				</li> -->
+				
+				<li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Help</a></li>
+				
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				  	<i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;&nbsp;My Account <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="" data-toggle="modal" data-target="#Loginpop">Login</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#SignupPop">Signup</a></li>
+				  </ul>
+				</li>
+				
+				<!-- <li class="social-link"><a href="#"><img src="img/fb-btn.png" alt="" title=""/></a></li>
+				<li class="social-link"><a href="#"><img src="img/twitter-btn.png" alt="" title=""/></a></li>
+				<li class="social-link"><a href="#"><img src="img/instagram-btn.png" alt="" title=""/></a></li> -->
+				
+				
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</header>
+	
+	<section class="banner-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					<div class="banner-text text-center">
+						<h1>Spott Meals in your pocket!</h1>
+					</div>
+					
+					<div class="food-order-cont">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="search-form">
+									<form>
+										<div class="form-outer">
+											<div class="row">
+												<div class="col-sm-3 border-right">
+													<div class="field-cont location-field">
+														<select class="search-field">
+														  <option>Select City</option>
+														</select>
+														<i class="fa fa-map-marker" aria-hidden="true"></i>
+													</div>
+												</div>
+												
+												<div class="col-sm-9">
+													<div class="field-cont food-field">
+														<input name="searcharea" type="text" class="typeahead search-field2" placeholder="Enter an area">
+														<i class="material-icons">border_color</i>
+														<i class="material-icons code">code</i>
+														<button disabled="disabled" type="button" class="btn btn-srch">Show Restaurants</button>
+													</div>
+												</div>
+												
+												
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="steps">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="step-heading text-center">
+						<h1>Get your favourite food in 4 simple steps</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<div class="step-box text-center">
+						<img src="img/step-box-ico1.png" alt="" title=""/>
+						<h3>Step 1</h3>
+						<h2>Search</h2>
+						<p>Find restaurants that deliver to you by entering your address</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<div class="step-box text-center">
+						<img src="img/step-box-ico2.png" alt="" title=""/>
+						<h3>Step 2</h3>
+						<h2>Choose</h2>
+						<p>Browse hundreds of menus to find the food you like</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<div class="step-box text-center">
+						<img src="img/step-box-ico3.png" alt="" title=""/>
+						<h3>Step 3</h3>
+						<h2>Pay Bill</h2>
+						<p>Pay fast & secure online or on delivery</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<div class="step-box text-center">
+						<img src="img/step-box-ico4.png" alt="" title=""/>
+						<h3>Step 4</h3>
+						<h2>Enjoy</h2>
+						<p>Food is prepared & delivered to your door</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="suggest-restaurants">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="step-heading text-center">
+						<h1>Suggested Restaurants</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div class="restaurants-list restro-list-home text-center">
+						<ul class="list-inline">
+							<li>
+								<a href="#" class="sg-restro-single">
+									<span class="sr-logo">
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="sg-restro-single">
+									<span class="sr-logo">
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="sg-restro-single">
+									<span class="sr-logo">
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section class="Cuisines-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="step-heading text-center">
+						<h1>Cuisines</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="outer-list list-outer">
+						<ul class="list-ustyled">
+							<li><a href="#">Biriyani</a></li>
+							<li><a href="#">Biriyani</a></li>
+							<li><a href="#">Biriyani</a></li>
+							<li><a href="#">Biriyani</a></li>
+							<li><a href="#">Biriyani</a></li>
+							<li><a href="#">Biriyani</a></li>
+							<li><a href="#">Biriyani</a></li>
+							<li><a href="#">Pizza</a></li>
+							<li><a href="#">Pizza</a></li>
+							<li><a href="#">Pizza</a></li>
+							<li><a href="#">Pizza</a></li>
+							<li><a href="#">Pizza</a></li>
+							<li><a href="#">Turkey</a></li>
+							<li><a href="#">Turkey</a></li>
+							<li><a href="#">Turkey</a></li>
+							<li><a href="#">Turkey</a></li>
+							<li><a href="#">Turkey</a></li>
+							<li><a href="#">Turkey</a></li>
+							<li><a href="#">Turkey</a></li>
+							<li><a href="#">Turkey</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+	
+	<section class="get-app">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="get-app-img">
+						<img src="img/tab.png" alt="" title=""/>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="get-app-text">
+						<h1>Spott in your pocket!</h1>
+						<p>Get our app, it's the fastest way to order food on the go.</p>
+					</div>
+					<div class="get-app-btn">
+						<ul class="list-inline">
+							<li><a href="#"><img src="img/google-play.png" alt="" title=""/></a></li>
+							<li><a href="#"><img src="img/app-store.png" alt="" title=""/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="top-border">
+		<div class="container">
+			<div class="row">
+				<h3 class="margin-bottom10">Subscribe to our newsletter</h3>
+					<ul class="list-style list-inline text-center">
+						<li>Don't miss out on our great offers</li>
+						<li>Recieve deals from all our top restaurants via e-mail</li>
+					</ul>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="email-subscribe-cont">
+						<form>
+							<div class="es-field-cont">
+								<input type="input" name="email" placeholder="Enter your email" class="es-field">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<button type="button" class="btn btn-es">Subscribe Now</button>							
+							</div>
+							<div class="term-cont">
+							<input type="checkbox" name="policy" id="checkboxG1" class="css-checkbox" checked="checked">
+							<label for="checkboxG1" class="css-label">I have read and accepted the Terms and conditions and Privacy policy</label>
+							
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Areas</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Cuisines</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Restaurants</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Foodbox</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>© Copyright 2017 Spott is a registered trademark</p>
+					</div>
+					
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p class="text-right">
+							<a href="#" title="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+							<a href="#" title="">Privacy Policy</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</footer>
+	
+	
+	<!----------------- Login Modal ------------------------>
+	
+	<div class="modal fade" id="Loginpop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  
+			<div class="modal-body">
+				<!-- login-modal -->
+				<div class="login-modal">
+					<div class="login-content text-center">
+						<h1>Log in</h1>
+						<p>with your social network</p>
+						<button type="button" class="btn"><i class="fa fa-facebook" aria-hidden="true"></i>facebook</button>
+					</div>
+					<p class="text-center line">or</p>
+					<form class="login-form">
+						<div class="form-group">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<input type="email" class="form-control" id="email" placeholder="Email ID">
+						</div>
+						<div class="form-group">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+							<input type="password" class="form-control" id="pwd" placeholder="Password">
+						</div>
+						<label class="custom-checkbox">Remember me
+							<input type="checkbox" checked="checked">
+							<span class="checkmark"></span>
+						</label>
+						<a class="forgot-pwd" href="#">Forgot your password?</a>
+						<button type="button" class="btn btn-block">Log in</button>
+						<a href="#" class="not-member">Not a member? <span>Sign up</span></a>
+					</form>
+				</div>
+			</div>
+		 
+		</div>
+	  </div>
+	</div>
+	
+	<!----------------- Signup Modal ------------------------>
+	
+	<div class="modal fade" id="SignupPop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  
+		  <div class="modal-body">
+				<div class="signup-modal">
+					<div class="signup-content text-center">
+						<h1>Sign up</h1>
+						<p>with your social network</p>
+						<button type="button" class="btn"><i class="fa fa-facebook" aria-hidden="true"></i>facebook</button>
+					</div>
+					<p class="text-center line">or</p>
+					<form class="signup-form">
+						<div class="form-group clearfix">
+							<div class="col-md-6 rpadding lpadding">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<input type="text" name="" placeholder="First Name" class="form-control first_name">
+							</div>
+							<div class="col-md-6 lpadding rpadding">
+								<i class="fa fa-user hidden-md hideden-sm visible-xs hidden-lg" aria-hidden="true"></i>
+								<input type="text" name="" placeholder="Last Name" class="form-control last_name">
+							</div>
+						</div>
+						<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-mobile" aria-hidden="true">&nbsp;&nbsp;</i><span>+91-</span></span>
+								<input id="phone" type="text" class="form-control" name="phone" placeholder="Mobile Number">
+						</div>
+						<div class="form-group">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<input type="email" class="form-control" id="email" placeholder="Email ID">
+						</div>
+						<div class="form-group">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+							<input type="password" class="form-control" id="pwd" placeholder="Password">
+						</div>
+						<label class="custom-checkbox signup-chekbox">I have read and accepted the Terms and Conditions and Private Policy.
+							<input type="checkbox" checked="checked">
+							<span class="checkmark"></span>
+						</label>
+						<button type="button" class="btn btn-block">Signup</button>
+						<a href="#" class="not-member">Already member? <span>Login</span></a>
+					</form>
+				</div>
+		  </div>
+		 
+		</div>
+	  </div>
+	</div>
+	
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typeahead.js"></script>
+    <script src="js/custom.js"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </body>
+</html>
